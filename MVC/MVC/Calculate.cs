@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MVC
 {
-	class Calculate
+	class Model
 	{
 		public double result { get; set; }
 

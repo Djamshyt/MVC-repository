@@ -18,15 +18,15 @@ namespace MVC
 	/// <summary>
 	/// Логика взаимодействия для MainWindow.xaml
 	/// </summary>
-	public partial class MainWindow : Window
+	public partial class Control : Window
 	{
-		Calculate calc;
+		Model calc;
 		string sign;
 
-		public MainWindow()
+		public Control()
 		{
 			InitializeComponent();
-			calc = new Calculate();
+			calc = new Model();
 		}
 
 		private void Calculate_Click(object sender, RoutedEventArgs e) // Получение значений
